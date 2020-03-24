@@ -8,7 +8,7 @@ XData setup
   <Default Name="Namespace" Value="IRISAPP"/>
   <Default Name="app" Value="irisapp" />
 
-  <Namespace Name="${Namespace}" Code="${Namespace}" Data="${Namespace}" Create="yes" Ensemble="no">
+  <Namespace Name="${Namespace}" Code="${Namespace}" Data="${Namespace}" Create="yes" Ensemble="0">
 
     <Configuration>
       <Database Name="${Namespace}" Dir="/opt/${app}/data" Create="yes" Resource="%DB_${Namespace}"/>
