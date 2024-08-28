@@ -4,6 +4,8 @@
         "Dockerfile*": "dockerfile",
       },
     "objectscript.conn" :{
+      "username": "_SYSTEM",
+      "password": "SYS",
       "ns": "IRISAPP",
       "active": true,
       "docker-compose": {
